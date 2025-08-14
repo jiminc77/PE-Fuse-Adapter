@@ -1,0 +1,48 @@
+paths:
+  raw_image_root: "data"
+  train_dir: "train"
+  test_dir: "test"
+  output_model_dir: "model/saved_models"
+  benchmark_dataset_root: "path/to/your/benchmark_dataset"
+  image_frame_features_root: "data/benchmark_features"
+  prediction_csv_output_dir: "logs/results"
+
+model:
+  encoder_model_name: "PE-Core-L14-336"
+  input_dim: 1024
+  hidden_dim: 512
+  dropout: [0.4]
+
+data:
+  class_names: ["fire", "falldown", "normal"]
+  text_feature_avg_root: "preprocess/avg_text_features"
+  prompt_json_path: "configs/synthethic_caption_template_placeholder.json"
+
+training:
+  device: "cuda"
+  epochs: 100
+  batch_size: 32
+  lr: [0.0005]
+  interaction_lr_multiplier: [8]
+  weight_decay: 0.001
+  num_workers: 16
+  early_stop_patience: 15
+  use_pos_weight: true
+
+calibration:
+  # gating_mode: "prob"
+  warmup_epochs: [12]
+  post_lock_max_epochs: 5
+  bootstrap: 7
+  quantile_q: 0.7
+  beta: 0.5
+  grid_points: 201
+  affine_reg: 0.001
+  error_logging:
+    top_k: 5
+    save_dir: "logs/errors"
+
+selection:
+  policy: "avg" #or "min"
+  save_window_pre_lock: 3
+  max_checkpoints: 5
