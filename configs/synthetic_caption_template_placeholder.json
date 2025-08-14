@@ -1,0 +1,71 @@
+{
+  "template": {
+    "template_caption": [
+      "Video of SYN_ACTION",
+      "A scene with SYN_SUBJECT doing SYN_ACTION",
+      "The clip captures SYN_SUBJECT doing SYN_ACTION",
+      "SYN_SUBJECT is doing SYN_ACTION",
+      "SYN_SUBJECT showcasing SYN_ACTION",
+      "A visual of SYN_ACTION",
+      "The recording illustrates SYN_ACTION",
+      "A SYN_ACTION moment",
+      "A captured scene of SYN_ACTION",
+      "An excerpt of SYN_SUBJECT showing SYN_ACTION",
+      "A motion video of SYN_ACTION",
+      "SYN_SUBJECT performing SYN_ACTION",
+      "SYN_SUBJECT engaged in SYN_ACTION",
+      "An example of SYN_SUBJECT doing SYN_ACTION in a video",
+      "A film featuring SYN_SUBJECT performing SYN_ACTION",
+      "SYN_SUBJECT involved in SYN_ACTION",
+      "A video extract showing SYN_SUBJECT performing SYN_ACTION",
+      "The footage represents SYN_SUBJECT performing SYN_ACTION",
+      "A recorded moment of SYN_SUBJECT performing SYN_ACTION in motion",
+      "A portrayal of SYN_SUBJECT performing SYN_ACTION",
+      "A clip showing SYN_SUBJECT engaged in SYN_ACTION",
+      "An example of SYN_SUBJECT performing SYN_ACTION in a video",
+      "A film featuring an object involved in SYN_ACTION",
+      "A display with SYN_SUBJECT of equipment being used for SYN_ACTION",
+      "A scene of SYN_SUBJECT involving SYN_ACTION",
+      "A documentation of SYN_SUBJECT at a process related to SYN_ACTION",
+      "A frame-by-frame look at SYN_SUBJECT involved in SYN_ACTION",
+      "The clip depicts SYN_SUBJECT performing SYN_ACTION in detail",
+      "A reel of a demonstration of SYN_ACTION",
+      "A video extract showing SYN_SUBJECT performing SYN_ACTION",
+      "The footage represents a mechanism engaged in SYN_ACTION",
+      "A recorded moment of a subject performing SYN_ACTION in motion",
+      "SYN_SUBJECT is seen performing SYN_ACTION in this video clip",
+      "A visual representation of SYN_SUBJECT engaged in SYN_ACTION",
+      "The video showcases SYN_SUBJECT actively performing SYN_ACTION",
+      "SYN_SUBJECT demonstrates SYN_ACTION",
+      "A recorded instance of SYN_SUBJECT carrying out SYN_ACTION",
+      "SYN_SUBJECT is captured in the act of SYN_ACTION in motion",
+      "This clip highlights SYN_SUBJECT executing SYN_ACTION",
+      "An illustration of SYN_SUBJECT performing SYN_ACTION on screen",
+      "The footage captures SYN_SUBJECT involved in SYN_ACTION",
+      "A moment where SYN_SUBJECT performs SYN_ACTION"
+    ]
+  },
+
+  "placeholder": {
+    "syn_subject": ["an individual", "person", "someone", "somebody", "a part of a team", "a being", "a worker", "participant", "an entity", "a human"],
+    "syn_aug_action": {
+    "fire": [
+        "fire", "burning", "blaze", "flames", "ignition", "inferno",
+        "burst into flames", "eruption", "scorching", "wildfire"
+    ],
+    "falldown": [
+        "falldown", "falling", "collapse", "trip and fall", "tumble",
+        "slip and fall", "losing balance", "stumble", "crashing down", "plummeting"
+    ],
+    "violence": [
+        "violence", "aggression", "physical attack", "fighting", "brawl",
+        "assault", "beating", "combat", "altercation", "hostile encounter"
+    ],
+    "normal": [
+        "normal", "nothing happened", "usual", "calm situation", "peaceful",
+        "undisturbed", "routine", "no incident", "ordinary", "quiet moment"
+    ]
+}
+
+  }
+}
