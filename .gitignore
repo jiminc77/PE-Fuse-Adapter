@@ -31,12 +31,13 @@ perception_models/
 *.csv
 *.json
 
-# Re-include specific files if necessary, while ignoring the directory
-# For example, to keep the config but ignore other json files:
-!configs/image_benchmark_config.yaml
-!configs/synthetic_caption_template_placeholder.json
-
 # Image
 *.png
 *.jpg
 *.jpeg
+
+# Configs: ignore everything by default, re-include specific files
+configs/**
+!configs/
+!configs/image_benchmark_config.yaml
+!configs/synthetic_caption_template_placeholder.json
