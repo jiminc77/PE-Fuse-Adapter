@@ -1,6 +1,6 @@
 # PE-Fuse-Adapter: Vision-Language Model Adaptation via Feature Interaction
 
-This repository contains the implementation of `Fuse-Adapter`, a lightweight module for adapting large, pre-trained Vision-Language Models (VLMs) to specific downstream tasks.
+This repository contains the implementation of `Fuse-Adapter`, a lightweight module for adapting, PE(Perception Encoder) to specific downstream tasks.
 
 ## Core Logic: The `Fuse_Adapter` Module
 
