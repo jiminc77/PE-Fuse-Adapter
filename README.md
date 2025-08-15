@@ -1,4 +1,4 @@
-# PE-Fuse-Adapter: Vision-Language Model Adaptation via Feature Interaction
+# PE-Fuse-Adapter: Perception Encoder Adaptation via Feature Interaction
 
 This repository contains the implementation of `Fuse-Adapter`, a lightweight module for adapting, PE(Perception Encoder) to specific downstream tasks.
 
