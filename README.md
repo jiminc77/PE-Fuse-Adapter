@@ -33,7 +33,7 @@ This approach allows the model to capture more complex relationships between vis
 ## Further Details
 For a more in-depth explanation of the model architecture, training methodology, and analysis of optimal hyperparameters, please refer to detailed documentation on Notion:
 
-[HF-Fuse-Adapter: In-Depth Analysis & Documentation](https://jiminc.notion.site/HF-Test-24f0afc85c47804482d3f11eec45af16?source=copy_link)
+[PE-Fuse-Adapter: In-Depth Analysis & Documentation](https://jiminc.notion.site/HF-Test-24f0afc85c47804482d3f11eec45af16?source=copy_link)
 
 ## Project Structure
 
