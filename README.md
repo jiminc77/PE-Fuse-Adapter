@@ -1,4 +1,4 @@
-# HF-Fuse-Adapter: Vision-Language Model Adaptation via Feature Interaction
+# PE-Fuse-Adapter: Vision-Language Model Adaptation via Feature Interaction
 
 This repository contains the implementation of `Fuse-Adapter`, a lightweight module for adapting large, pre-trained Vision-Language Models (VLMs) to specific downstream tasks.
 
@@ -30,10 +30,15 @@ This approach allows the model to capture more complex relationships between vis
 -   **Hyperparameter Grid Search**: The entry point `main.py` is configured to run a full grid search over parameters defined in the config file.
 -   **Comprehensive Video Benchmark Evaluation**: The `benchmark_eval.py` script provides a robust pipeline for evaluating trained models on video datasets, caching features and generating detailed performance reports.
 
+## Further Details
+For a more in-depth explanation of the model architecture, training methodology, and analysis of optimal hyperparameters, please refer to detailed documentation on Notion:
+
+[HF-Fuse-Adapter: In-Depth Analysis & Documentation](https://jiminc.notion.site/HF-Test-24f0afc85c47804482d3f11eec45af16?source=copy_link)
+
 ## Project Structure
 
 ```
-HF-Fuse-Adapter/
+PE-Fuse-Adapter/
 ├── configs/
 │   ├── image_benchmark_config.yaml
 │   └── synthetic_caption_template_placeholder.json
